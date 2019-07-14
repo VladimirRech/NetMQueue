@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2046
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ClassicDotNet", "ClassicDotNet", "{B361010D-F00D-41C6-BD63-8B2D56582D09}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DotNetCore", "DotNetCore", "{D1920B59-BDCB-400D-9802-3709CFA8F251}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetMQueue.Model", "..\NetMQueue.Model\NetMQueue.Model.csproj", "{8565A549-2C4E-4C11-B051-05407AE99281}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8565A549-2C4E-4C11-B051-05407AE99281}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8565A549-2C4E-4C11-B051-05407AE99281}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8565A549-2C4E-4C11-B051-05407AE99281}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8565A549-2C4E-4C11-B051-05407AE99281}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {76F59A3E-13B5-42CA-93BA-13CBF1555E0A}
+	EndGlobalSection
+EndGlobal
