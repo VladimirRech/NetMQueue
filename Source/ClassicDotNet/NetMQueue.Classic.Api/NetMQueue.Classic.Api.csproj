@@ -183,6 +183,7 @@
     <Compile Include="Areas\HelpPage\SampleGeneration\TextSample.cs" />
     <Compile Include="Areas\HelpPage\XmlDocumentationProvider.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\NetQueueController.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -275,6 +276,16 @@
     <None Include="packages.config" />
     <Content Include="Scripts\jquery-3.3.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.3.1.min.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\NetMQueue.Model\NetMQueue.Model.csproj">
+      <Project>{8565a549-2c4e-4c11-b051-05407ae99281}</Project>
+      <Name>NetMQueue.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\NetMQueue.Classic.Queue\NetMQueue.Classic.Queue.csproj">
+      <Project>{a81be409-59c8-4ac4-bebd-cc2e4b4e6bc2}</Project>
+      <Name>NetMQueue.Classic.Queue</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
